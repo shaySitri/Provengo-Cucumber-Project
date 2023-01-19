@@ -15,7 +15,7 @@ Contains 1 feature, 3 stories:
 Pre-Conditions:
 1. Admin is logged in.
 2. Commentable post is exist.
+
 ## Step files
 The step files in the [src/test/java/WordPress](src/test/java/WordPress) directory contain the code that defines how each sentence in the feature files is translated to Selenium actions. See the files for a detailed description of the implementation.
 
-$$*TODO* Make sure that each step is documented and properly writen (meaningful variable names, no magic number, etc.). See the [StepDefinitions.java](src/test/java/hellocucumber/StepDefinitions.java) file for an example.$$
