@@ -7,8 +7,14 @@ Run ```mvn test``` to run all the tests.
 ## Feature files
 The behaviors that we tested are in the feature files that inside the [resources/WordPress](resources/WordPress) directory. See the files for a detailed description of the tests.
 
-$$*TODO*: Make sure that the text inside the feature files is informative and self-explanatory. This includes the "Feature: ...", "Scenario: ...", and "Given/When/Then ..." lines. See the "example.feature" file for an example.$$
+Contains 1 feature, 3 stories:
+1. Admin adds disallowed key word.
+2. Guest comment on some post.
+3. Admin enable keyword, guest comment with the disallowed key word.
 
+Pre-Conditions:
+1. Admin is logged in.
+2. Commentable post is exist.
 ## Step files
 The step files in the [src/test/java/WordPress](src/test/java/WordPress) directory contain the code that defines how each sentence in the feature files is translated to Selenium actions. See the files for a detailed description of the implementation.
 
