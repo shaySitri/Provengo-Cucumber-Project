@@ -1,5 +1,5 @@
 # Testing WordPress using Cucumber
-This directory contains the cucumber files for testing the disallowed keywords module of the WordPress application.
+This directory contains the cucumber files for testing the posts module of the WordPress application.
 
 ## Running the tests
 Run ```mvn test``` to run all the tests.
